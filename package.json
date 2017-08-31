@@ -4,7 +4,6 @@
     "bundle": "ENV=chrome node_modules/.bin/webpack --config config/webpack.chrome.js"
   },
   "dependencies": {
-    "preact": "^8.2.5",
     "typescript": "2.3.4"
   },
   "devDependencies": {

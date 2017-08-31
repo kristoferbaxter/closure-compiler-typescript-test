@@ -5,16 +5,6 @@ const ClosureCompilerPlugin = require('webpack-closure-compiler');
 const BROWSER_NAME = 'chrome';
 const BROWSER_MIN_SUPPORTED_VERSION = 52;
 
-const BabelLoaderRule = {
-  test: /\.js$/,
-  exclude: /node_modules/,
-  use: {
-    loader: 'babel-loader',
-    options: {
-      cacheDirectory: true
-    }
-  }
-};
 const TSLoaderRule = {
   test: /\.tsx?$/,
   exclude: /node_modules/,
